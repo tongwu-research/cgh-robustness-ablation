@@ -1,0 +1,5 @@
+case,quantization_bits,peak_photons,psnr_db,ssim
+Ideal Baseline,-1,-1.0,13.732046401629631,0.06054282933473587
+Severe Quantization (2-bit),2,-1.0,13.53518042266423,0.05908070504665375
+Severe Noise (1e3 photons),-1,1000.0,7.942818432133409,0.02512432634830475
+Combined Degradation (4-bit + 1e3 photons),4,1000.0,7.753686409894169,0.021861782297492027
